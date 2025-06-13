@@ -1,0 +1,375 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "milk",
+      "productName": "Bottled Milk",
+      "description": "500ml bottle pack",
+      "price": "30",
+      "image": "dairies/milk.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "2",
+      "category": "milk",
+      "productName": "Milk Bottles",
+      "description": "3 x 500ml bottle pack",
+      "price": "110",
+      "image": "dairies/milk_bottles.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "3",
+      "category": "milk",
+      "productName": "Milk Tetra Pack",
+      "description": "1 litre bottle pack",
+      "price": "110",
+      "image": "dairies/milk-tetra.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "4",
+      "category": "butter",
+      "productName": "Salted Butter",
+      "description": "100gm packet",
+      "price": "50",
+      "image": "dairies/butter.jpg",
+      "nutritionalValue": "rich in sodium and calcium. good for joints"
+    },
+    {
+      "id": "5",
+      "category": "buttermilk",
+      "productName": "Plain Buttermilk",
+      "description": "500ml pack",
+      "price": "20",
+      "image": "dairies/buttermilk.jpg",
+      "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+    },
+    {
+      "id": "6",
+      "category": "cheese",
+      "productName": "Cheese Cubes",
+      "description": "pack of 6 cubes",
+      "price": "80",
+      "image": "dairies/cheese_cubes.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "7",
+      "category": "cheese",
+      "productName": "Cheese Slice",
+      "description": "pack of 5 slices",
+      "price": "60",
+      "image": "dairies/cheese_sliced.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "8",
+      "category": "cheese",
+      "productName": "Cheese Spread",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "dairies/cheese_spread.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "9",
+      "category": "milk",
+      "productName": "Cow Milk",
+      "description": "500ml bottle pack",
+      "price": "32",
+      "image": "dairies/cow_milk.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "10",
+      "category": "milk",
+      "productName": "Cow Milk Tetra Pack",
+      "description": "1 litre tetra pack",
+      "price": "60",
+      "image": "dairies/cow_milk_tetra_pack.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "11",
+      "category": "curd",
+      "productName": "Plain Curd",
+      "description": "500gm pack",
+      "price": "25",
+      "image": "dairies/curd.jpg",
+      "nutritionalValue": "rich in calcium. good for bones. improves metabolism"
+    },
+    {
+      "id": "12",
+      "category": "cream",
+      "productName": "Fresh Cream",
+      "description": "500gm pack",
+      "price": "200",
+      "image": "dairies/fresh_cream.jpg",
+      "nutritionalValue": "rich in protein and calcium. good for bones"
+    },
+    {
+      "id": "13",
+      "category": "yogurt",
+      "productName": "Fruit Yogurt",
+      "description": "500gm pack",
+      "price": "60",
+      "image": "dairies/fruit_yogurt.jpg",
+      "nutritionalValue": "high fibre, high protein, rich in calcium"
+    },
+    {
+      "id": "14",
+      "category": "ghee",
+      "productName": "Cow Ghee",
+      "description": "250gm pack",
+      "price": "100",
+      "image": "dairies/ghee.jpg",
+      "nutritionalValue": "rich in calcium, protein."
+    },
+    {
+      "id": "15",
+      "category": "yogurt",
+      "productName": "Healthy Yogurt",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "dairies/healthy_yogurt.jpg",
+      "nutritionalValue": "rich in calcium"
+    },
+    {
+      "id": "16",
+      "category": "butter",
+      "productName": "White Butter",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "dairies/home_made_white_butter_.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "17",
+      "category": "paneer",
+      "productName": "Paneer - Cottage Cheese",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "dairies/paneer.jpg",
+      "nutritionalValue": "rich in protein, calcium. increases good cholesterol"
+    },
+    {
+      "id": "18",
+      "category": "butter",
+      "productName": "Peanut Butter",
+      "description": "250gm pack",
+      "price": "200",
+      "image": "dairies/peanut_butter.jpg",
+      "nutritionalValue": "rich in protein, good for hair and eyes"
+    },
+    {
+      "id": "19",
+      "category": "yogurt",
+      "productName": "Plain Yogurt - Sweet",
+      "description": "150gm pack",
+      "price": "30",
+      "image": "dairies/plain_yogurt.jpg",
+      "nutritionalValue": "rich in calcium, fiber and proteins"
+    }
+  ],
+  "orders": [
+    {
+      "id": "c20e",
+      "userId": "4b09",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": 3,
+          "productName": "Milk Tetra Pack",
+          "price": "100",
+          "quantity": 5
+        }
+      ],
+      "totalAmount": 500
+    },
+    {
+      "id": "06de",
+      "userId": "4b09",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": 3,
+          "productName": "Milk Tetra Pack",
+          "price": "100",
+          "quantity": 3
+        }
+      ],
+      "totalAmount": 300
+    },
+    {
+      "id": "1f95",
+      "userId": "b6d1",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": "3",
+          "productName": "Milk Tetra Pack",
+          "price": "100",
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "productName": "Cheese Slice",
+          "price": "60",
+          "quantity": 2
+        },
+        {
+          "id": "16",
+          "productName": "White Butter",
+          "price": "100",
+          "quantity": 3
+        },
+        {
+          "id": "13",
+          "productName": "Fruit Yogurt",
+          "price": "60",
+          "quantity": 3
+        }
+      ],
+      "totalAmount": 800
+    },
+    {
+      "id": "0697",
+      "userId": "b6d1",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": "1",
+          "productName": "Bottled Milk",
+          "price": "30",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 60
+    },
+    {
+      "id": "7043",
+      "userId": "b6d1",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": "7",
+          "productName": "Cheese Slice",
+          "price": "60",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 120
+    },
+    {
+      "id": "7218",
+      "userId": "b6d1",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": "5",
+          "productName": "Plain Buttermilk",
+          "price": "20",
+          "quantity": 11
+        }
+      ],
+      "totalAmount": 220
+    },
+    {
+      "id": "1279",
+      "userId": "f384",
+      "userName": "V",
+      "email": "v@gmail.com",
+      "contact": "8604704821",
+      "products": [
+        {
+          "id": "1",
+          "productName": "Bottled Milk",
+          "price": "30",
+          "quantity": 5
+        }
+      ],
+      "totalAmount": 150
+    },
+    {
+      "id": "626d",
+      "userId": "b6d1",
+      "userName": "Vaibhav Kesarwani",
+      "email": "vaibhavkesarwani30@gmail.com",
+      "contact": "8604704824",
+      "products": [
+        {
+          "id": "4",
+          "productName": "Salted Butter",
+          "price": "50",
+          "quantity": 3
+        },
+        {
+          "id": "2",
+          "productName": "Milk Bottles",
+          "price": "110",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 260
+    }
+  ],
+  "users": [
+    {
+      "id": "a844",
+      "emailid": "admin@gmail.com",
+      "password": "12345",
+      "cnfpassword": "",
+      "name": "Administrator",
+      "address": "hyd",
+      "mobileno": "324324",
+      "role": "ROLE_ADMIN",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "b6d1",
+      "name": "Vaibhav Kesarwani",
+      "contact": "8604704824",
+      "emailid": "vaibhavkesarwani30@gmail.com",
+      "address": "D1/4, River Bank Colony",
+      "city": "Lucknow",
+      "postalCode": "226018",
+      "password": "vaibhav30@",
+      "role": "ROLE_USER"
+    },
+    {
+      "id": "f384",
+      "name": "V",
+      "contact": "8604704821",
+      "emailid": "v@gmail.com",
+      "address": "V",
+      "city": "Lucknow",
+      "postalCode": "226018",
+      "password": "123456",
+      "role": "ROLE_USER"
+    },
+    {
+      "id": "882a",
+      "name": "Abcd",
+      "contact": "9807405377",
+      "emailid": "abcd@gmail.com",
+      "address": "Ribver bank colony",
+      "city": "Lucknow",
+      "postalCode": "226018",
+      "password": "123456",
+      "role": "ROLE_USER"
+    }
+  ]
+}
