@@ -17,7 +17,7 @@ export default function Signup() {
     try {
       const { confirmPassword, ...userData } = data; // Remove confirmPassword before sending data to backend
       userData.role="ROLE_USER";
-      await axios.post("http://localhost:5000/users", userData);
+      await axios.post(`${process.env.REACT_APP_BASEURL}/users`, userData);
 
       setSnackbar({ open: true, message: "Account created successfully!", severity: "success" });
 

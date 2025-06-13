@@ -10,7 +10,6 @@ import axios from "axios";
 export const DataContext = createContext();
 
 function App() {
-  const url = "http://localhost:5000/products";
   const [originalProduct, setOriginalProduct] = useState([]); // Store original data
   const [product, setProduct] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,7 +21,8 @@ function App() {
   useEffect(() => {
     async function getProduct() {
       try {
-        const response = await axios.get(url);
+        console.log("ENV:", process.env);
+        const response = await axios.get(`${process.env.REACT_APP_BASEURL}/products`);
         setProduct(response.data);
         setOriginalProduct(response.data); // Save unmodified product list
       } catch (err) {

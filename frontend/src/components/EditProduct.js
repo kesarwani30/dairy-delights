@@ -11,7 +11,6 @@ export default function EditProduct() {
   const { setProduct } = useContext(DataContext); // Get setProduct from context
 
   const [updatedProduct, setUpdatedProduct] = useState(product);
-  const url = "http://localhost:5000/products/";
 
   const handleChange = (e) => {
     setUpdatedProduct({ ...updatedProduct, [e.target.name]: e.target.value });
@@ -20,7 +19,7 @@ export default function EditProduct() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(url + updatedProduct.id, updatedProduct)
+      .put(`${process.env.REACT_APP_BASEURL}/products/` + updatedProduct.id, updatedProduct)
       .then(() => {
         alert("Product updated successfully!");
 

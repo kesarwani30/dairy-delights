@@ -8,7 +8,7 @@ export default function DairyCard({ dairy }) {
 
   const { isLoggedIn, cart, setCart,currentUser,setProduct } = useContext(DataContext); 
   const navigate = useNavigate();
-  const url="http://localhost:5000/products/"
+  const url=`${process.env.REACT_APP_BASEURL}/products/`
 
 
   const addToCart = () => {

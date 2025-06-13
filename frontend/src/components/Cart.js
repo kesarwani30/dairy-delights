@@ -45,7 +45,7 @@ export default function Cart() {
     };
 
     try {
-      const response = await axios.post("http://localhost:5000/orders", orderDetails);
+      const response = await axios.post(`${process.env.REACT_APP_BASEURL}/orders`, orderDetails);
       console.log("Order placed successfully:", response.data);
       alert("Order placed successfully!");
       setCart([]); // Clear cart after successful checkout

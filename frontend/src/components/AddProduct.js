@@ -21,7 +21,7 @@ export default function AddProduct() {
         nutritionalValue: data.nutritionalValue,
        
       };
-      const response = await axios.post("http://localhost:5000/products", newProduct);
+      const response = await axios.post(`${process.env.REACT_APP_BASEURL}/products`, newProduct);
 
 
       const addedProduct = response?.data || newProduct;

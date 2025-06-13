@@ -21,7 +21,7 @@ export default function Login() {
   let checkLogin = (data) => {
     let getUser = async () => {
       try {
-        let response = await axios.get("http://localhost:5000/users?emailid=" + data.emailid);
+        let response = await axios.get(`${process.env.REACT_APP_BASEURL}/users?emailid=${data.emailid}`);
         if (response.data.length > 0 && response.data[0].password === data.password && response.data[0].emailid === data.emailid ) {
           let currentUser = response.data[0];
 

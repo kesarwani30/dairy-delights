@@ -8,7 +8,7 @@ export default function OrderHistory() {
     useEffect(() => {
         async function getOrder() {
             try {
-                const response = await axios.get("http://localhost:5000/orders");
+                const response = await axios.get(`${process.env.REACT_APP_BASEURL}/orders`);
                 if (Array.isArray(response.data)) {
                     setOrders(response.data);
                 } else {
